@@ -1,0 +1,35 @@
+{
+  "name": "carspotter.ca",
+  "version": "1.0.0",
+  "description": "Exotic car photography blog",
+  "author": {
+    "name": "HudsonGraeme",
+    "email": "me@hudsongrae.me",
+    "url": "https://hudsongrae.me"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-markdown": "2.2.0-2",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^4.5.13",
+    "@hope-ui/solid": "^0.6.7",
+    "@solidjs/router": "^0.8.2",
+    "@stitches/core": "^1.2.8",
+    "date-fns": "^2.29.3",
+    "ky": "^0.33.3",
+    "lodash": "^4.17.21",
+    "solid-icons": "^1.0.4",
+    "solid-js": "^1.6.10",
+    "solid-markdown": "^1.2.1",
+    "solid-transition-group": "^0.2.2"
+  }
+}
