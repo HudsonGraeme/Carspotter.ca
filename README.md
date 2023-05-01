@@ -30,6 +30,7 @@ The site shouldn't ever need maintenance after it's initially created, although 
 
 gm, ser!
 
+[Solid]: https://solidjs.com 'SolidJS'
 [SolidJS]: https://solidjs.com 'SolidJS'
 [VITE]: https://vitejs.dev/ 'VITE'
 [vite-plugin-markdown]: https://github.com/hmsk/vite-plugin-markdown 'Markdown parser for VITE'
