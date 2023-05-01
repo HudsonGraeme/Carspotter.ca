@@ -12,15 +12,11 @@ import {
   VStack,
   useColorModeValue,
 } from '@hope-ui/solid'
-import { For, createResource, createSignal } from 'solid-js'
+import { For, createEffect, createResource, createSignal } from 'solid-js'
 import toPlainObject from 'lodash/toPlainObject'
 import Image from './Image'
 import { BiRegularSortUp } from 'solid-icons/bi'
-
-const loadPosts = () =>
-  Promise.all(Object.values(import.meta.glob('../Posts/*.md')).map((call) => call())).then((items) =>
-    items.map(toPlainObject),
-  )
+import usePosts from '../Hooks/usePosts'
 
 enum SortType {
   DATE_DESC,
@@ -68,7 +64,7 @@ const humanReadableSortMap = {
 }
 
 const PostGrid = () => {
-  const [posts] = createResource<any[]>(loadPosts, { initialValue: [] })
+  const posts = usePosts()
   const [sortMethod, setSortMethod] = createSignal(SortType.DATE_DESC)
   const cardColor = useColorModeValue('$blackAlpha3', '$whiteAlpha3')
   const badgeColor = useColorModeValue('$blackAlpha3', '$whiteAlpha6')

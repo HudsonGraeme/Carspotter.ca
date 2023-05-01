@@ -16,7 +16,7 @@ const links: ILink[] = [
     href: '/about',
   },
   {
-    label: 'Blog',
+    label: 'Posts',
     href: '/blog',
   },
 ]

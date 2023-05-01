@@ -1,8 +1,8 @@
 ---
 title: "Testing Tesla's Collision Avoidance"
-date: "2017-04-22"
-categories: 
-  - "tesla"
+date: '2017-04-22'
+categories:
+  - 'tesla'
 ---
 
 As some of you might know, i've been attempting to hit a pedestrian with a Model S on AutoPilot for a long time now. Over the many tests i've done, i've found some pretty odd results - find them below. I would like to thank Elon Musk and Tesla Motors for their outstanding implementation of Collision Avoidance, Traffic Aware Cruise Control(TACC), AutoPilot(AP) and, of course, Automatic Emergency Braking(AEB). My main goal was to have a pedestrian force the vehicle to initiate an AEB event without driver intervention and thanks to Tesla's immaculate attention to even hidden details, this was accomplished. I also wanted to contribute useful data to help with the evolution of Tesla's safety systems.
