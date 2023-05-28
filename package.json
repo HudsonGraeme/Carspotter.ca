@@ -31,5 +31,9 @@
     "solid-js": "^1.6.10",
     "solid-markdown": "^1.2.1",
     "solid-transition-group": "^0.2.2"
+  },
+  "overrides": {
+    "solid-js": "^1.6.10",
+    "solid-transition-group": "^0.2.2"
   }
 }
