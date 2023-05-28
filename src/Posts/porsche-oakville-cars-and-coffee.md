@@ -1,24 +1,69 @@
 ---
-title: "Porsche Oakville Cars and Coffee"
-date: "2017-05-29"
-categories: 
-  - "meets"
+title: 'Porsche Oakville Cars and Coffee'
+date: '2017-05-29'
+categories:
+  - 'meets'
+image: '_base_url_/cars-and-coffee-porsche-2017/DSC_0057.jpg'
 ---
 
-Porsche has been kind enough to host some cars and coffee events on the first Saturday of every summer month. These meets are very classy, my type of environment. The meets where you get "tuners" aren't really my style. Sure, a GT86 or an R34 isn't bad, but when the mods on your car consist of a large, obnoxious exhaust and the removal of your Honda badge, that's something that I don't like at all. Anyway, the meet started off good, i was a bit early and got to see some of the cars roll in which was nice. First impressions:
+Porsche has been kind enough to host some cars and coffee events on the first Saturday of every summer month. These meets are very classy, and consist of good vibes only. The meet started off good, I arrived a bit early, allowing me to witness the arrival of some remarkable cars. First impressions:
 
-\[gallery type="rectangular" ids="178,179,180,181"\]
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0013.jpg)
 
-I've seen that ACR before. I'll probably see him at some meets later on this year. I proceeded to the back of Porsche to be met with this
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0021.jpg)
 
-\[gallery type="rectangular" ids="182,183,184,185,186,187,188"\]
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0058.jpg)
 
-Stunning. This was my first time seeing a 675lt in the metal. Not that anyone cares. Anyway. The car itself was stunning on its own. The matté black paint paired with the carbon accents was immaculate. I have to say, it looks way better than the 650s, it looks violent. Onward! After staring at the McLaren for a bit, a very loud car entered the area. An old Ford GT. It's owner parked nose to nose with the McLaren which was interesting.
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0057.jpg)
 
-\[gallery type="rectangular" ids="191,192,193,194"\]
+I recognized the ACR from a previous encounter and anticipated seeing it at future meets later in the year. As I made my way to the back of the Porsche area, I was met with a captivating sight.
 
-After that, it was pretty much Porsches.
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0022.jpg)
 
-\[gallery type="rectangular" ids="195,196,197,198,199,200,202,203,204,205,206"\]
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0023.jpg)
 
-That's that. Big thanks to [Porsche Centre Oakville](https://www.porschecentreoakville.com) for hosting the event!
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0027.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0212.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0218.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0220.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0241.jpg)
+
+It was a breathtaking moment for me. This marked my first in-person encounter with a McLaren 675LT, and I couldn't help but be amazed. The matte black paint combined with carbon accents created an immaculate appearance. In my opinion, it surpassed the 650S in terms of visual impact—it looked aggressive and formidable. Moving on from the McLaren, I was captivated by the arrival of a very loud car—a classic Ford GT. Its owner parked it nose to nose with the McLaren, resulting in an interesting juxtaposition.
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0034.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0039.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0042-1.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0045.jpg)
+
+After that, the focus shifted primarily to Porsches.
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0128.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0126.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0123.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0073.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0072.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0064.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0044.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0147.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0204.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0208.jpg)
+
+![](_base_url_/cars-and-coffee-porsche-2017/DSC_0207.jpg)
+
+That concludes my experience at the Porsche Oakville Cars and Coffee event. I extend my sincere appreciation to [Porsche Centre Oakville](https://www.porschecentreoakville.com) for hosting this fantastic gathering!

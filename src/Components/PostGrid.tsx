@@ -1,5 +1,4 @@
 import {
-  Badge,
   Button,
   GridItem,
   Heading,
@@ -12,11 +11,12 @@ import {
   VStack,
   useColorModeValue,
 } from '@hope-ui/solid'
-import { For, createEffect, createResource, createSignal } from 'solid-js'
-import toPlainObject from 'lodash/toPlainObject'
-import Image from './Image'
+import { useNavigate } from '@solidjs/router'
 import { BiRegularSortUp } from 'solid-icons/bi'
+import { For, createSignal } from 'solid-js'
 import usePosts from '../Hooks/usePosts'
+import { BASE_URL_PLACEHOLDER } from '../utilities/constants'
+import Image from './Image'
 
 enum SortType {
   DATE_DESC,
@@ -69,6 +69,7 @@ const PostGrid = () => {
   const cardColor = useColorModeValue('$blackAlpha3', '$whiteAlpha3')
   const badgeColor = useColorModeValue('$blackAlpha3', '$whiteAlpha6')
   const dateColor = useColorModeValue('$blackAlpha10', '$whiteAlpha10')
+  const navigate = useNavigate()
 
   const sort = () => humanReadableSortMap[sortMethod()]
   return (
@@ -104,28 +105,20 @@ const PostGrid = () => {
                   rounded="$lg"
                   overflow="hidden"
                   alignItems="start"
-                  spacing="$2"
                   w="$full"
+                  spacing="$0"
                   h="$full"
+                  maxH="$sm"
+                  cursor="pointer"
+                  onClick={() => navigate(`/post/${post.slug}`)}
                 >
-                  <Image src={post.attributes.image} />
-                  <VStack alignItems="start" p="$2">
+                  <Image
+                    maxH="$72"
+                    src={(post.attributes.image || '').replace(BASE_URL_PLACEHOLDER, import.meta.env.VITE_BASE_IMG_URL)}
+                  />
+                  <VStack alignItems="start" p="$4">
                     <Text color={dateColor()}>{post.attributes.date}</Text>
                     <Heading>{post.attributes.title}</Heading>
-                    <VStack spacing="$4">
-                      <Text>{post.attributes.description}</Text>
-                      <SimpleGrid columns={4}>
-                        <For each={post.attributes.categories}>
-                          {(tag) => (
-                            <GridItem>
-                              <Badge bg={badgeColor()}>
-                                <Text>{tag}</Text>
-                              </Badge>
-                            </GridItem>
-                          )}
-                        </For>
-                      </SimpleGrid>
-                    </VStack>
                   </VStack>
                 </VStack>
               </GridItem>
@@ -138,14 +131,3 @@ const PostGrid = () => {
 }
 
 export default PostGrid
-
-/**
- * <Markdown
-                  children={post.markdown || ''}
-                  components={{
-                    h1: Heading as any,
-                    p: Text as any,
-                    img: (props: any) => <Image {...props} style={{ maxWidth: '100%' }} />,
-                  }}
-                />
- */

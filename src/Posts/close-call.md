@@ -1,10 +1,13 @@
 ---
-title: "Close Call"
-date: "2017-05-11"
-categories: 
-  - "tesla"
+title: 'Close Call'
+date: '2017-05-11'
+categories:
+  - 'tesla'
+image: '_base_url_/close_call/thumb.png'
 ---
 
-Yesterday evening, returning from an unknown location, driving on an unknown highway, the four lane highway had two exits - each taking up two lanes. Now, from experience, if you take the wrong exit, it will take you 20 minutes to get back to unknown location A. Naturally, i'd rather take the right (as in correct) exit. But, i had a problem. Car A and car B. With car A being in front of us, and car B being in the lane to the right. I had to get over to lane 3 in record time to take my exit. Luckily, Mr. Musk planned for this, and included a 1 second merge time with our car at no extra charge. Pedal down, turn signal on, swerve. The car decided it would crash and tried to activate Collision Avoidance (hence the frantic beeping), luckily, it didn't take evasive maneuvers. Alright, into lane 2. Now we have an even bigger problem. To our right, a GT350R. Obviously, this was great to get photos of, but he wanted to take the lane 1&2 exit, and we wanted to take the lane 3&4 exit. And the divider was nearing closer. The Mustang popped the clutch in and revved it to let us know he was going for it. Brakes for us, then. Coming within two feet of our car, the GT350 swerved over the white lines and into his exit while we did the same in the opposite direction. An unknown voice (not me) can be heard saying "Someone had to brake first" nearer the end of the clip.
+Yesterday evening, while driving on an unfamiliar four-lane highway with two exits, a challenging situation unfolded. It was crucial to take the correct exit to avoid a lengthy detour back to our starting point, let's call it location A. However, there were two obstacles: Car A ahead of us and Car B in the adjacent lane. We urgently needed to switch to lane 3 to reach our intended exit promptly. Thankfully, our vehicle's design, courtesy of Mr. Musk, included a seamless one-second merging feature at no extra cost. With determination, I pressed the pedal, activated the turn signal, and executed a swift lane change. The car briefly alarmed us by attempting to engage Collision Avoidance, resulting in frantic beeping, but fortunately, it didn't veer off course.
 
-\[embed\]http://carspotter.ca/movies/Dashcam.mp4\[/embed\]
+Having successfully maneuvered into lane 2, a new predicament emerged. A stunning GT350R Mustang was positioned to our right. While it presented an excellent opportunity for photography, the driver aimed to take the lane 1&2 exit, precisely where we intended to go. The divider between our paths loomed closer. Suddenly, the Mustang roared, indicating its intention to make the daring move. Sensing the urgency, we applied the brakes. With a mere two feet of separation, the GT350 gracefully crossed the white lines, skillfully accessing its exit, while we executed a similar evasive maneuver in the opposite direction. Toward the end of the video clip, an unidentified voice, distinct from mine, can be heard stating, "Someone had to brake first."
+
+![](_base_url_/close_call/Dashcam.mp4)

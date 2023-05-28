@@ -1,23 +1,26 @@
-import { createSignal } from 'solid-js'
-import { VStack, Image as HopeImage, Text, useColorModeValue, ImageProps } from '@hope-ui/solid'
-import Crash from './Asset/crash'
+import { Image as HopeImage, ImageProps, Text, VStack, useColorModeValue } from '@hope-ui/solid'
+import { createSignal, Show } from 'solid-js'
 import Loading from './Asset/Loading'
+import Crash from './Asset/crash'
 
 const Image = ({ src, ...otherProps }: ImageProps) => {
   const [loaded, setLoaded] = createSignal(false)
   const [error, setError] = createSignal(false)
   const errorTextColor = useColorModeValue('$blackAlpha10', '$whiteAlpha10')
+  const loadingFillColor = useColorModeValue('$blackAlpha7', '$whiteAlpha7')
   const noImageBackgroundColor = useColorModeValue('$whiteAlpha10', '$blackAlpha10')
   return (
     <>
-      <HopeImage
-        src={src}
-        onLoad={() => setLoaded(true)}
-        onError={() => setError(true)}
-        transition="opacity 0.5s ease-out"
-        opacity={loaded() ? 1 : 0}
-        {...otherProps}
-      />
+      <Show when={!error()}>
+        <HopeImage
+          src={src}
+          onLoad={() => setLoaded(true)}
+          onError={() => setError(true)}
+          transition="opacity 0.5s ease-out"
+          opacity={loaded() ? 1 : 0}
+          {...otherProps}
+        />
+      </Show>
       <Show when={!loaded() && !error() && src}>
         <VStack
           w="$full"
@@ -26,13 +29,23 @@ const Image = ({ src, ...otherProps }: ImageProps) => {
           justifyContent="center"
           color={errorTextColor()}
           spacing="$4"
+          p={4}
+          {...otherProps}
         >
-          <Loading w="$32" h="$32" fill={'rgba(0,0,0,0.2)'} />
+          <Loading w="$32" h="$32" css={{ fill: loadingFillColor() }} />
           <Text>Finding car...</Text>
         </VStack>
       </Show>
       <Show when={error() || !src}>
-        <VStack w="$full" h="$xs" bg={noImageBackgroundColor()} justifyContent="center" color={errorTextColor()}>
+        <VStack
+          w="$full"
+          h="$xs"
+          bg={noImageBackgroundColor()}
+          justifyContent="center"
+          color={errorTextColor()}
+          p={4}
+          {...otherProps}
+        >
           <Crash w="$32" h="$32" css={{ fill: errorTextColor() }} />
           <Text>Crashed while trying to deliver image...</Text>
         </VStack>

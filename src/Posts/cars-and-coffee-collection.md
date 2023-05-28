@@ -3,61 +3,63 @@ title: 'Cars and Coffee Collection'
 date: '2019-01-04'
 categories:
   - 'meets'
-image: 'http://carspotter.ca/wp-content/uploads/2019/01/DSC_0126-700x467.jpg'
+image: '_base_url_/cars-and-coffee-engineered-2019/DSC_0126.jpg'
 ---
 
-Hello again folks.
+# Cars and Coffee Collection
 
-Over the years, I have spent many a time wondering aimlessly amongst the variety of automobiles which occupy the parking spaces and the streets around [Engineered Automotive](https://www.engineeredautomotive.com). The company is kind enough to reserve the first Sunday of every summer month for something called Cars and Coffee. If you aren't familiar with Cars and Coffee meetups, a photo speaks a thousand words - and I have plenty.
+Hello again, folks!
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0126-700x467.jpg)
+Over the years, I have often found myself aimlessly wandering among the assortment of automobiles that fill the parking spaces and line the streets surrounding Engineered Automotive. This company generously reserves the first Sunday of every summer month for an event called Cars and Coffee. For those unfamiliar with Cars and Coffee meetups, a photo can convey a thousand words—and I have plenty to share.
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0133-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0126.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0118-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0133.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0124-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0118.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0113-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0124.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0111-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0113.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0028-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0111.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0093-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0028.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0087-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0093.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0079-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0087.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0076-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0079.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0068-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0076.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0058-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0068.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0054-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0058.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2018/05/cropped-DSC_0071-e1525630099920-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0054.jpg)
 
-Essentially, Cars and Coffee consists of one part coffee, two parts car enthusiast and three parts interesting cars. Upon arrival, my attention was immediately captured by the aggressive lines on the Mercedes AMG-GTR. The colour is pleasant and understated, quite the opposite of the overall body style which looks somewhere between violent and hell raising. The exhausts appear gnarly, especially because they reside in the considerable rear diffuser. The classic AMG long bonnet fits the car impeccably, housing the large twin turbo V8 engine which passes a healthy 577 horsepower direct to the rear wheels.
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0071.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0051-700x467.jpg)
+Essentially, Cars and Coffee is a delightful blend of one part coffee, two parts car enthusiasts, and three parts captivating vehicles. Upon my arrival, my attention was immediately captivated by the striking lines of the Mercedes AMG-GTR. The color choice was pleasantly understated, providing a contrasting touch to the overall body style, which falls somewhere between aggressive and awe-inspiring. The exhausts, nestled within the substantial rear diffuser, exuded a gnarly appearance. The classic AMG long bonnet flawlessly complemented the car, housing the large twin-turbo V8 engine that delivered an impressive 577 horsepower directly to the rear wheels.
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0052-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0051.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0063-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0052.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0049-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0063.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0014-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0049.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0039-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0014.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0040-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0039.jpg)
 
-- ![](http://carspotter.ca/wp-content/uploads/2019/01/DSC_0044-700x467.jpg)
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0040.jpg)
 
-Overall, Cars and Coffee is a great experience for any car enthusiast, there's plenty of variety and no lack of passion for the culture. On top of the cars and the enthusiasts, the coffee and doughnuts are plentiful and enjoyable.
+![](_base_url_/cars-and-coffee-engineered-2019/DSC_0044.jpg)
 
-Happy new year.
+All in all, Cars and Coffee offers a fantastic experience for any car enthusiast. There is an abundance of variety, and the passion for the culture is palpable. Furthermore, the coffee and doughnuts provided add an extra touch of enjoyment to the event.
+
+Happy New Year!

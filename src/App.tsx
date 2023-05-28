@@ -1,10 +1,12 @@
+import '@fontsource/fira-code/700.css'
 import { HopeProvider } from '@hope-ui/solid'
-import Home from './Pages/Home'
 import { Route, Router, Routes } from '@solidjs/router'
 import Layout from './Components/Layout'
-import '@fontsource/fira-code/700.css'
 import About from './Pages/About'
 import Blog from './Pages/Blog'
+import BlogPost from './Pages/BlogPost'
+import Home from './Pages/Home'
+import './styles.css'
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/post/:slug" element={<BlogPost />} />
           </Route>
         </Routes>
       </Router>

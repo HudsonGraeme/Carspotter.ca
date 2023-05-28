@@ -1,26 +1,12 @@
 import { Heading, Text, VStack } from '@hope-ui/solid'
 import TwoUp from '../Components/TwoUp'
-import Carousel, { IImageSrcWithLink } from '../Components/Carousel'
-
-const carouselItems: IImageSrcWithLink[] = [
-  {
-    label: 'Some Blog Post',
-    src: 'http://carspotter.ca/wp-content/uploads/2019/01/DSC_0126-700x467.jpg',
-    href: '/cars',
-  },
-  {
-    label: 'Some Blog Post 3',
-    src: 'http://carspotter.ca/wp-content/uploads/2019/01/DSC_0133-700x467.jpg',
-    href: '/cars',
-  },
-  {
-    label: 'Some Blog Post 2',
-    src: 'http://carspotter.ca/wp-content/uploads/2019/01/DSC_0118-700x467.jpg',
-    href: '/cars',
-  },
-]
+import Carousel from '../Components/Carousel'
+import usePosts from '../Hooks/usePosts'
+import sampleSize from 'lodash/sampleSize'
 
 const Home = () => {
+  const posts = usePosts()
+
   return (
     <VStack spacing="$24" p="$16" w="$full" h="$full" flex="1" alignItems="start">
       <TwoUp
@@ -43,7 +29,7 @@ const Home = () => {
             Shots
           </Heading>
         }
-        second={<Carousel sourceList={carouselItems} />}
+        second={<Carousel posts={() => sampleSize(posts(), 3)} />}
       />
     </VStack>
   )
