@@ -4,12 +4,12 @@ date: '2017-05-21'
 categories:
   - 'meets'
   - 'photos'
-image: '_base_url_/strada-season-opener-2017/optimized/DSC_0004.avif'
+image: '_base_url_/strada-season-opener-2017/optimized/DSC_0046.avif'
 ---
 
 Strada. The event was held at [Chateau Le Jardin Event Venue](https://www.google.ca/maps/place/Chateau+Le+Jardin+Event+Venue/@43.7895421,-79.6289331,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3b30f280bda5:0xe48499ba868db97!8m2!3d43.7895421!4d-79.6267444) in Vaughn (Toronto). I had to leave at 5:30 PM for the 6 PM start. Despite Tesla's excellent navigation system, we failed to notice that the 403 highway was closed, and every detour we took was congested with traffic. Luckily, the driver quickly came up with an alternative route, and by 6:30 PM, we were back on track. It was getting dark, but I had my tripod with me, and my camera performs well in low-light conditions for long exposure shots. However, capturing videos without proper lighting would be challenging. I estimated I had about an hour of sunlight left based on the position of the sun. After a fast-paced journey, we realized the location was more than 7,000 buildings up the street from where the navigation was set. We took another highway/race track, and by 7:00 PM, we were almost there. While examining my camera, I noticed some police officers in the distance, which is not uncommon for car meets. In the meantime, a 458 Speciale caught my attention and triggered my carspotter reflexes.
 
-![](_base_url_/strada-season-opener-2017/optimized/DSC_0004.avif)
+(Sorry, this image has magically disappeared off of the web archive, 2 servers and several folders on my computer... It was a great shot, too!)
 
 The day has started off amazingly, then. In good spirits, we made our way onward. As we overcame the hill in the above photo, it became apparant that it wasn't just a single car pulled over but an entire rally. North Face Rally. Once again, my carspotter instincts kicked in, and I captured footage and photos of this incredible roadblock that resembled something out of "Need for Speed."
 
