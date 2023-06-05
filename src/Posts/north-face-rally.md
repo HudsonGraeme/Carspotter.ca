@@ -49,9 +49,7 @@ Immaculate describes the car, yet still does it no justice. This vehicle, this p
 
 ![](_base_url_/strada_nfr_2017/optimized/DSC_0179.avif)
 
-When the doors go up it looks ready to fly, and when it's driving it looks qualified to take a sharp chicane at 200km/h. Kingtasma went to the track for a photoshoot with [Twalt24](https://www.instagram.com/twalt24/) and [Toronto Exotic Carspotting](https://www.instagram.com/toronto_exotic_car_spotting/).
-
-Here are some photos from the event in general.
+When the doors go up it looks ready to fly, and when it's driving it looks qualified to take a sharp chicane at 200km/h. Kingtasma went to the track for a photoshoot with [Twalt24](https://www.instagram.com/twalt24/) and [Toronto Exotic Carspotting](https://www.instagram.com/toronto_exotic_car_spotting/). Here are some more photos from the event in general.
 
 ![](_base_url_/strada_nfr_2017/optimized/DSC_0030.avif)
 

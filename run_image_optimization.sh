@@ -13,7 +13,7 @@ if [ ! -d $OPTIMIZED_DIR ] ; then
     mkdir $OPTIMIZED_DIR
 fi
 
-$(magick mogrify -path $RESIZE_DIR -resize 50% -quality 80 "${BASE_DIR}/*.jpg")
+$(magick mogrify -path $RESIZE_DIR -resize 50% -quality 80 "${BASE_DIR}/*.jpg");
 
 for FILE in $(find "${RESIZE_DIR}" -type f \( -iname \*.jpg \)) ; do
     if [ ! -f "$FILE" ]; then
@@ -22,6 +22,6 @@ for FILE in $(find "${RESIZE_DIR}" -type f \( -iname \*.jpg \)) ; do
     if [[ "$FILE" == *"$OPTIMIZED_DIR"* ]]; then
         continue;
     fi
-    FILENAME=$(basename $FILE)
-    avifenc "${FILE}" "${OPTIMIZED_DIR}/${FILENAME%.*}.avif";
+    FILENAME=$(basename $FILE);
+    $(avifenc -j all "${FILE}" "${OPTIMIZED_DIR}/${FILENAME%.*}.avif");
 done

@@ -1,7 +1,7 @@
-import { Image as HopeImage, ImageProps, Text, VStack, useColorModeValue } from '@hope-ui/solid'
+import { Image as HopeImage, ImageProps, Text, useColorModeValue, VStack } from '@hope-ui/solid'
 import { createSignal, Show } from 'solid-js'
-import Loading from './Asset/Loading'
 import Crash from './Asset/crash'
+import Loading from './Asset/Loading'
 
 const Image = ({ src, ...otherProps }: ImageProps) => {
   const [loaded, setLoaded] = createSignal(false)
@@ -23,6 +23,7 @@ const Image = ({ src, ...otherProps }: ImageProps) => {
       </Show>
       <Show when={!loaded() && !error() && src}>
         <VStack
+          minW="$sm"
           w="$full"
           h="$xs"
           bg={noImageBackgroundColor()}
@@ -32,12 +33,13 @@ const Image = ({ src, ...otherProps }: ImageProps) => {
           p={4}
           {...otherProps}
         >
-          <Loading w="$32" h="$32" css={{ fill: loadingFillColor() }} />
-          <Text>Finding car...</Text>
+          <Loading w="$12" h="$12" css={{ fill: loadingFillColor() }} />
+          <Text fontSize="$xs">Finding car...</Text>
         </VStack>
       </Show>
       <Show when={error() || !src}>
         <VStack
+          minW="$sm"
           w="$full"
           h="$xs"
           bg={noImageBackgroundColor()}
@@ -46,8 +48,8 @@ const Image = ({ src, ...otherProps }: ImageProps) => {
           p={4}
           {...otherProps}
         >
-          <Crash w="$32" h="$32" css={{ fill: errorTextColor() }} />
-          <Text>Crashed while trying to deliver image...</Text>
+          <Crash w="$12" h="$12" css={{ fill: errorTextColor() }} />
+          <Text fontSize="$xs">Crashed while trying to deliver image...</Text>
         </VStack>
       </Show>
     </>

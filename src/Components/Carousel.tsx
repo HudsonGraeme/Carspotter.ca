@@ -1,11 +1,11 @@
-import { Box, Flex, HStack, ImageProps, Stack, Text, VStack, useColorModeValue } from '@hope-ui/solid'
-import { LinkProps, useNavigate } from '@solidjs/router'
-import { For, createSignal, Show, createEffect } from 'solid-js'
-import Image from './Image'
-import Button from './Button'
-import { FiExternalLink } from 'solid-icons/fi'
-import { BASE_URL_PLACEHOLDER } from '../utilities/constants'
+import { Box, Flex, HStack, Text, useColorModeValue, VStack } from '@hope-ui/solid'
+import { useNavigate } from '@solidjs/router'
 import isEmpty from 'lodash/isEmpty'
+import { FiExternalLink } from 'solid-icons/fi'
+import { createSignal, For, Show } from 'solid-js'
+import { BASE_URL_PLACEHOLDER } from '../utilities/constants'
+import Button from './Button'
+import Image from './Image'
 const Carousel = ({ posts }) => {
   const [currentImage, setCurrentImage] = createSignal(0)
   const hoverColor = useColorModeValue('$whiteAlpha11', '$blackAlpha11')
@@ -27,14 +27,8 @@ const Carousel = ({ posts }) => {
   return (
     <Show when={!isEmpty(posts())}>
       <VStack spacing="$4" alignItems="center" maxW="90%">
-        <Box pos="relative" overflow="hidden" h="$sm" w="$md">
-          <HStack
-            pos="absolute"
-            spacing="$4"
-            h="$full"
-            w={`calc(calc(${posts().length} * $md) - calc(${currentImage()} * $4))`}
-            transform={`translateX(calc(${currentImage()} * calc(-100% / ${posts().length})))`}
-          >
+        <Box pos="relative" overflow="hidden" h="$sm" w="$full" minW="$sm">
+          <HStack pos="absolute" spacing="$4" h="$full" w="$full" transform={`translateX(-${currentImage() * 100}%yd)`}>
             <For each={posts()}>
               {({ slug, attributes: { title, image } }) => (
                 <Flex pos="relative" role="group">
