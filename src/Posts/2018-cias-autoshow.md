@@ -9,10 +9,6 @@ image: '_base_url_/cias-2018/optimized/DSC_0022.avif'
 
 # 2018 Canadian International AutoShow Gallery
 
-![](_base_url_/cias-2018/optimized/DSC_0001.avif)
-
-![](_base_url_/cias-2018/optimized/DSC_0002.avif)
-
 ![](_base_url_/cias-2018/optimized/DSC_0003.avif)
 
 ![](_base_url_/cias-2018/optimized/DSC_0004.avif)
