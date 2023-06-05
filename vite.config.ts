@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
 import mdPlugin, { Mode } from 'vite-plugin-markdown'
+import solidPlugin from 'vite-plugin-solid'
 
 export default defineConfig({
   plugins: [solidPlugin(), mdPlugin({ mode: Mode.MARKDOWN as any })],
@@ -10,4 +10,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  publicDir: 'public',
 })
