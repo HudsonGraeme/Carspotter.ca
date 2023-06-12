@@ -25,7 +25,7 @@ const BlogPost = () => {
   const posts = usePosts()
   const post = () => posts().find((postItem) => postItem.slug === slug)
   return (
-    <VStack alignItems="start" my={12}>
+    <VStack alignItems="start" spacing="$6" my={12}>
       <Button as={Link} href="/blog" variant="subtle" colorScheme="neutral" leftIcon={<FiArrowLeft />}>
         Back
       </Button>
