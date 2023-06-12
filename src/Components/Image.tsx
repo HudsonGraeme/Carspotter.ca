@@ -80,9 +80,9 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
       <Modal opened={modalOpen()} onClose={() => setModalOpen(false)} size="full">
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader as={HStack} justifyContent="space-between">
+          <ModalHeader as={HStack} justifyContent="space-between" py="$8">
             <Heading>{alt}</Heading>
-            <ModalCloseButton bg="#131313" pos="relative" />
+            <ModalCloseButton top={0} bg="#131313" pos="relative" />
           </ModalHeader>
           <ModalBody>
             <Show when={!largeImageLoaded()}>
@@ -110,7 +110,7 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
                   _hover={{ bg: '$accent10' }}
                   rightIcon={<FiDownload />}
                   href={fullSizeDataURL()}
-                  download="test"
+                  download={(alt || 'Image-From-Carspotter_Daily').split(' ').join('-')}
                 >
                   Download
                 </Button>
@@ -152,9 +152,9 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
       </Show>
       <Show when={!loaded() && !error() && src}>
         <VStack
-          minW="$sm"
-          w="$full"
-          h="$xs"
+          as={Skeleton}
+          w={otherProps.maxW || '$sm'}
+          h={otherProps.maxH || '$xs'}
           bg={noImageBackgroundColor()}
           justifyContent="center"
           color={errorTextColor()}
@@ -168,9 +168,8 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
       </Show>
       <Show when={error() || !src}>
         <VStack
-          minW="$sm"
-          w="$full"
-          h="$xs"
+          w={otherProps.maxW || '$sm'}
+          h={otherProps.maxH || '$xs'}
           bg={noImageBackgroundColor()}
           justifyContent="center"
           color={errorTextColor()}

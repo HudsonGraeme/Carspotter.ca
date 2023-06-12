@@ -61,7 +61,8 @@ const BlogPost = () => {
                 ) : (
                   <Image
                     cursor="zoom-in"
-                    maxW="$48"
+                    maxW="$md"
+                    objectFit="contain"
                     {...props}
                     src={props.src.replace(BASE_URL_PLACEHOLDER, import.meta.env.VITE_BASE_IMG_URL)}
                   />
