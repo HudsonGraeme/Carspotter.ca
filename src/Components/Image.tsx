@@ -41,6 +41,8 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
   const errorTextColor = useColorModeValue('$blackAlpha10', '$whiteAlpha10')
   const loadingFillColor = useColorModeValue('$blackAlpha7', '$whiteAlpha7')
   const noImageBackgroundColor = useColorModeValue('$whiteAlpha10', '$blackAlpha10')
+  const accentColor = useColorModeValue('$accent8', '$accent10')
+  const rowColor = useColorModeValue('#F3F3F3', '#131313')
 
   createEffect(() => {
     if (src && !dataURL()) {
@@ -81,8 +83,10 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader as={HStack} justifyContent="space-between" py="$8">
-            <Heading>{alt}</Heading>
-            <ModalCloseButton top={0} bg="#131313" pos="relative" />
+            <Heading bg="#F3F3F3" py={1} px="$4" rounded="$lg" fontWeight="$bold" fontSize="$2xl">
+              {alt}
+            </Heading>
+            <ModalCloseButton top={0} bg={rowColor()} pos="relative" />
           </ModalHeader>
           <ModalBody>
             <Show when={!largeImageLoaded()}>
@@ -106,8 +110,8 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
                 </Heading>
                 <Button
                   as="a"
-                  bg="$accent10"
-                  _hover={{ bg: '$accent10' }}
+                  bg="$purple"
+                  _hover={{ bg: '$purple' }}
                   rightIcon={<FiDownload />}
                   href={fullSizeDataURL()}
                   download={(alt || 'Image-From-Carspotter_Daily').split(' ').join('-')}
@@ -118,15 +122,17 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
               <Show when={!isEmpty(exifData())}>
                 <Table>
                   <Thead>
-                    <Tr bg="$accent10">
-                      <Th>Name</Th>
-                      <Th numeric>Value</Th>
+                    <Tr bg="$purple">
+                      <Th color="$inverted">Name</Th>
+                      <Th color="$inverted" numeric>
+                        Value
+                      </Th>
                     </Tr>
                   </Thead>
                   <Tbody>
                     <For each={Object.entries(exifData())}>
                       {([key, value]: [string, string], index) => (
-                        <Tr bg="#131313">
+                        <Tr bg={rowColor()}>
                           <Td>{key}</Td>
                           <Td numeric>{value}</Td>
                         </Tr>

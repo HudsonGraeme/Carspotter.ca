@@ -13,6 +13,20 @@ function App() {
     <HopeProvider
       config={{
         initialColorMode: 'system',
+        lightTheme: {
+          colors: {
+            text: '$black',
+            inverted: '$white',
+            purple: '#6f68fc',
+          },
+        },
+        darkTheme: {
+          colors: {
+            text: '$white',
+            inverted: '$black',
+            purple: '#7c66dc',
+          },
+        },
         components: {
           Heading: {
             baseStyle: {
