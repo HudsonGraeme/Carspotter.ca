@@ -8,12 +8,12 @@ import {
   MenuTrigger,
   SimpleGrid,
   Text,
-  VStack,
   useColorModeValue,
+  VStack,
 } from '@hope-ui/solid'
 import { useNavigate } from '@solidjs/router'
 import { BiRegularSortUp } from 'solid-icons/bi'
-import { For, createSignal } from 'solid-js'
+import { createSignal, For } from 'solid-js'
 import usePosts from '../Hooks/usePosts'
 import { BASE_URL_PLACEHOLDER } from '../utilities/constants'
 import Image from './Image'
@@ -32,13 +32,9 @@ const sortPosts = (posts: any[], sortType: SortType) => {
     case SortType.DATE_ASC:
       return posts.sort((a, b) => new Date(a.attributes.date).getTime() - new Date(b.attributes.date).getTime())
     case SortType.PHOTO_DESC:
-      return posts.sort(
-        (a, b) => (b.markdown.match(/png|jpg/g) || []).length - (a.markdown.match(/png|jpg/g) || []).length,
-      )
+      return posts.sort((a, b) => (b.markdown.match(/avif/g) || []).length - (a.markdown.match(/avif/g) || []).length)
     case SortType.PHOTO_ASC:
-      return posts.sort(
-        (a, b) => (a.markdown.match(/png|jpg/g) || []).length - (b.markdown.match(/png|jpg/g) || []).length,
-      )
+      return posts.sort((a, b) => (a.markdown.match(/avif/g) || []).length - (b.markdown.match(/avif/g) || []).length)
     default:
       return posts
   }
@@ -67,7 +63,7 @@ const PostGrid = () => {
   const posts = usePosts()
   const [sortMethod, setSortMethod] = createSignal(SortType.DATE_DESC)
   const cardColor = useColorModeValue('$blackAlpha3', '$whiteAlpha3')
-  const badgeColor = useColorModeValue('$blackAlpha3', '$whiteAlpha6')
+  const iconColor = useColorModeValue('black', 'white')
   const dateColor = useColorModeValue('$blackAlpha10', '$whiteAlpha10')
   const navigate = useNavigate()
 
@@ -75,7 +71,12 @@ const PostGrid = () => {
   return (
     <VStack alignItems="start" w="$full" p="$4" spacing="$4">
       <Menu>
-        <MenuTrigger as={Button} variant="subtle" colorScheme="neutral" rightIcon={<BiRegularSortUp />}>
+        <MenuTrigger
+          as={Button}
+          variant="subtle"
+          colorScheme="neutral"
+          rightIcon={<BiRegularSortUp fill={iconColor()} />}
+        >
           <Text>
             Sort by{' '}
             <Text as="span" color="$info11">
@@ -114,6 +115,7 @@ const PostGrid = () => {
                 >
                   <Image
                     maxH="$72"
+                    maxW="$full"
                     src={(post.attributes.image || '').replace(BASE_URL_PLACEHOLDER, import.meta.env.VITE_BASE_IMG_URL)}
                   />
                   <VStack alignItems="start" p="$4">

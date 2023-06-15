@@ -1,9 +1,10 @@
-import { Stack, Text, hope, useColorModeValue } from '@hope-ui/solid'
+import { hope, Stack, Text, useColorModeValue } from '@hope-ui/solid'
 import { Link, LinkProps } from '@solidjs/router'
 import { For } from 'solid-js'
 
 interface ILink extends LinkProps {
   label: string
+  isDisabled?: boolean
 }
 
 const links: ILink[] = [
@@ -18,6 +19,11 @@ const links: ILink[] = [
   {
     label: 'Posts',
     href: '/blog',
+  },
+  {
+    label: 'Garage',
+    href: '/garage',
+    isDisabled: true,
   },
 ]
 const HopeLink = hope(Link, {
@@ -36,9 +42,18 @@ const Navigation = () => {
   return (
     <Stack direction={{ '@initial': 'column', '@md': 'row' }} alignItems="center">
       <For each={links}>
-        {({ label, href }, index) => (
+        {({ label, href, isDisabled }, index) => (
           <>
-            <HopeLink href={href} _hover={{ bgColor: hoverColor() }} _active={{ bgColor: activeColor() }}>
+            <HopeLink
+              href={href}
+              _hover={{ bgColor: hoverColor() }}
+              _active={{ bgColor: activeColor() }}
+              style={{ filter: isDisabled ? 'brightness(60%)' : 'none' }}
+              cursor={isDisabled ? 'not-allowed' : 'pointer'}
+              onClick={(e: MouseEvent) => {
+                if (isDisabled) e.preventDefault()
+              }}
+            >
               {label}
             </HopeLink>
             {index() !== links.length - 1 && links.length > 1 ? <Text mx="$2">&#x2022;</Text> : null}
