@@ -30,6 +30,7 @@ import { createEffect, createSignal, For, Show } from 'solid-js'
 import { toDataURL } from '../utilities'
 import Crash from './Asset/crash'
 import Loading from './Asset/Loading'
+
 const Image = ({ src, alt, ...otherProps }: ImageProps) => {
   const [loaded, setLoaded] = createSignal(false)
   const [error, setError] = createSignal(false)
@@ -147,6 +148,7 @@ const Image = ({ src, alt, ...otherProps }: ImageProps) => {
       </Modal>
       <Show when={!error()}>
         <HopeImage
+          loading="lazy"
           src={dataURL()}
           onLoad={() => setLoaded(true)}
           onError={() => setError(true)}

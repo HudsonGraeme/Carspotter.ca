@@ -7,8 +7,7 @@ import Blog from './Pages/Blog'
 import BlogPost from './Pages/BlogPost'
 import Home from './Pages/Home'
 import './styles.css'
-
-function App() {
+const App = () => {
   return (
     <HopeProvider
       config={{

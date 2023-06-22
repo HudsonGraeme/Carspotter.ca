@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 td {
@@ -31,4 +32,8 @@ table {
   border-collapse: separate !important;
   border-spacing: 0 15px !important;
   border-radius: 1rem !important;
+}
+
+img {
+  will-change: transform;
 }
